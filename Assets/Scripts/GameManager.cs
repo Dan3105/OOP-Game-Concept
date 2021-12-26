@@ -45,6 +45,7 @@ public class GameManager : MonoBehaviour
         {
             Time.timeScale = 0;
             loseScence.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
         }
     }
     public void SpawnGem()
